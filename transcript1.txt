@@ -1,0 +1,84 @@
+00:00:04
+Hello ji , how are you all? this is Lakshay Today we have reached to our lecture no-9, today we will officially start process management part What is process ? How it is created ? Which steps OS flow while creating it? Which data structures are used ? when we move it from one state to other state , what is context switching? we have already discussed about some of that little bit , but today we will discuss it properly This video is sponsored by Coding ninjas , India's leading coding education platform
+
+00:00:44
+Many product based companies like Amazon , Adobe, commvault  focuses on technical interviews on OS part To clear these interviews your OS part must be strong , so CN provides comprehensive and in depth course Which covers all the concepts, all theoretical concepts are being taught based on linux OS Here you also get one on one doubt session support , educators are from big companies In this course you will get 12+ hours content , 150+ questions , 12+ projects Hre you will also get different courses related to CSE
+
+00:01:32
+If you are interested in paid courses then I will put the link in the description , you will get the maximum available discount , thank you Start with process ? Before learning process tell me how we write program ? If I simply write C++ program , you create a .cpp file And give this to compiler it compiles it , and create an executable This final  product , we call it program Program is a code /data ready to execute The code written in text file is not ready to execute , it converted through compiler
+
+00:02:47
+Its work is to make it executable Program is an executable , it resides in disk Like you have GTA in my computer , when you double click then it opens The program is in the disk , what is the process ? I will take the example of TIKTOK The app is a program , it is basically in the storage , it has not come to RAM You will tap on it , now the process will start OS will convert program into process This is small definition , program under execution you can simply tell this So this is our process , process is an unit of work done by computer
+
+00:04:24
+You want computer to do some work , Pc is  a logical asszociation of hardware And you want computer to do some work , process is used to do it Now if you have understood the what part Lets discuss one small part , why? Its simple answer is , User want to do some work , there is a way to do it That's why user writes its own code  and converts it into program through compiler then process Process is executed by OS , This is basically the introduction to OS We studied that program is inside the disk
+
+00:05:41
+Lets know about the steps that are involved between program ->process All works have been done by operating system How OS creates a process ? There are 5 steps 1. Load the program and static data to memory Memory ->RAM , your program data will go to memory , while loading some static data will be also loaded The data used for initialization is called static data lets understand it , you write code in  C++ , IO written a code char *name =" Lakshay" , allocated it This is written in your program , you have not allocated it dynamically
+
+00:07:34
+It is written , I will call it static data When program is loaded all the instructions are loaded , along that static data is also loaded Because when this program will be converted in process , a name variable will be formed in program , from which thing we will initialize it That data is your static data , OS basically copies OS data , as soon as program is converted into process We assign the relevant  data This data is copied as static data , whenever is needed It should know what is to assign to variable
+
+00:08:35
+So this is my static data , used for initialization Assume some array , int a =0, how will we know that we have to initialize it with 0 Static data is copied , so this is your 1st step , lets move to 2nd step We will now allocate stack at run time Two things are used in process 1. stack , when you do recursive calls When you call one function from other function , here all data is copied in a stack Then you jump to other function In this way it works Till know process data is loaded We have to allocate the stack
+
+00:09:58
+Stack is a part of memory used for local variables , function arguments , and return values You know local variable , at that time what ever function is working , its local variables when you call function , the arguments that you give , return values , we manages all these in stack that's why we need the run time track , 2nd part , we will allocate heap Stacks we need to call functions Heap is needed to allocate dynamic data at run time At runtime we will give malloc ()  or new call and allocate memory at heap
+
+00:11:25
+That part of memory is also allocated , part of memory used for dynamic allocation These are our 3 steps , 4th step I/O tasks , if I take example , in Unix system I/O descriptors are formed , 1 for i/p and 2. for o/p , 3. error handling What do you mean buy that Input means , when ever process needs to i/o To enable i/o we allocate i/o handles Similarly , where the output of the program will be written for that one handle And one error handle , if program generates an error if I take a simple example of C++, in fprintf(std err, " hang")
+
+00:13:13
+Google the arguments of fprintf 1st argument can be a file descriptor or an error handle The standard error handle used in C++ is , we call it stderr , this is basically console part Basically we handle this type of handles , i/o related task , because  process has to do i/o After this our whole process is created , OS did the 4 steps To run the process it has allocated sufficient stack , sufficient heap , and also handled the case of i/o Now start the execution , so you have seen in C++ main() , your program always starts from here
+
+00:14:23
+why? because OS only knows main , it doesn't know any other function As calls main , from here process is handles by OS OS handoff control to min() Now program will control the CPU Basically process s scheduled , because program is under execution that's why we will use process Process has the control of CPU , ,memory Now process will do its work , OS work is finish here So this is your process Lets discuss one more thing , at end you write return 0 What is its meaning?  it means , we had discussed that processes inside OS are formed as child processes
+
+00:15:44
+Whenever OS created this processes It will have some parent , that has created this child process i will  call it OS , it is a sub part of OS , so we will call it OS for now OS called P1 , whenever this P1 will be executed , OS should have its knowledge that is it a successful execution or not? Why ? because it may be possible that program has written , if it is not successful then it should so some type of error That's why we write return zero , it means that it has be successfully executed
+
+00:16:30
+If inside program there , there are some function calls , if I have reached this position , and returned zero OS will assume that program has been successfully executed It may be possible you have written -1 here  or exit OS will direct exit from here , from here 0 is not returned so OS will understand there is some problem So program handles that error according to itself What OS interprets from the value that main() returns So we understood this , so our process has been completed Now process is allocated , it has entered in the memory
+
+00:17:52
+Now what will be its architecture in the memory How it looks? Lets draw it It is famous This is your process architecture , your process is looking like this 1st component is text , text is compiled code Which you have loaded from the disk I am giving a H/W , open an executable by clicking right in a notepad , you will see weird characters That is also a file , your node pad is not able to read it , but that is also a file This is memory area , there is some part , there it will be in form of text
+
+00:19:25
+Then the data section , in C++ you declare global It is accessible from one module to other module , if it is looking new to you , go and google In data segment you have global variables , static data , we discussed it little bit ago Global and static data , then heap and stack , in the starting of program execution Heap and stack are far apart So that they can get sufficient space to execute the program If you have used recursion Many times it has given stack overflow , why? Because whenever you give recursive call
+
+00:20:55
+I am at this stage , I stores its all variables When call goes , one more stack area is located , and new function call is made When you do call again and again , there is no exit condition In that case , your stack get larger , after a certain limit it give stack overflow condition When it reaches heap , then stack overflow condition occurs There is one more type of error memory insufficient error In that case , you have a certain amount of RAM , you process also has a certain amount of limit It will not give all RAM to one process , many times you allocate heap again and again , and do not free  it
+
+00:22:31
+There are some programing languages where there is no need to free  like Java But in C++ , in this if you have allocated , then you also have to clear it If any developer allocates in heap again and again , and not freeing it At one point heap will also touch stack and one error will be thrown ,we call it memory insufficient error depending on system But lets discuss how to avoid it 1. stack overflow , 2. out of memory How will we avoid it?? there is one way , see your code carefully So set the base case , so that it can stop somewhere , and unbind statement
+
+00:24:00
+When you call stack , it is called at different levels , when base condition hits , then stack is unbind , basically we free it If you not do it then stack overflow will occur , so write the base condition Out of memory error , whatever unnecessary objects that you have allocated , deallocate them , set the base case So this is your architecture of process , now will discuss attribute of process The features required to identify the process If you loaded the process , many processes will be loaded , then how will I differentiate between two processes
+
+00:25:19
+What are points on which it differentiate them Lets discuss , Attributes of process P! ,P2 ,P3,P4, OS is the manager Writes these on a table I call it process table , this is a table type structure , 1.P1 ,2.P2 ,3.P3 , 4.P4 ,like there are many processes It knows the no. of processes present currently One entry is PCB -> process control block OS keeps all processes at process table to manage them , each entry is called process control block It is a data structure , which stores all the information related to process
+
+00:26:51
+In last lecture in which we have studied little bit context switching , for doing it All data is stored in PCB  temporarly Every process has it own personal PCB ,OS recognises process through PCB , it has this much role To recognize a process I will have to go to PCB , lets double click on PCB Last time we have not discussed PCB , PCB is itself a data structure PCB looks something like this , there are many blocks Visualize it in mind , you have seven type of information 1. what is process ID? It is an unique identifier embedded by OS
+
+00:28:12
+You are 23 unique process , 24 , in this way unique ID is given Why used ? OS want to differentiate between two processes program counter Whenever your program is running , if I go to this this is your code , here you have written something When it is compiled , it is converted into instructions If i give example them , 12ADD , converted into instructions It is a collection of instructions CPU is dumb It simply wants the instructions , it will execute it OS associates a program counter related to every process , which always starts with 0
+
+00:29:51
+As it is executed , it adds it , then next , again plus , same thing this is a program counter , currently now I am at which address , or executing which instruction Its work is to track it Why is it necessary? if it is not there I will be unable to know the next instruction It will look  something like this Fetch the instruction from address in PC , then Pc++ then execute it and I will do it in loop 1st I will be at zeroth position , there instruction will be written It is a pointer pointing to that address
+
+00:31:19
+CPU will 1st see at which program counter it is ,. it is at 1 Then I have to fetch instruction corresponding to it , PC is pointing at 1 It will decode it and fetch it , then PC++ Then execute the instructions , then move to next It goes like this till program terminates In this way program counter works Lets move to process state We will study it in next video , process basically passes from many states , every state has its own importance Inside PCB the process state stores current state of process
+
+00:32:35
+Lets come to priority we have red it , it is necessary in CPU How high priority job will be decided , corresponding to that job there will be a PCB written From that it will be decided its priority Here priority is written lets come to resistors ,there are many resistor inside CPU SP ->stack pointer , BP-> base pointer resistor , no need to memorize them , if you want then google it Google them , know little bit more , then you will enjoy it CR-> control resistors Whenever your program is executed , P1 is being executed by CPU
+
+00:33:50
+Its time limit finishes , either it went to wait state , or its time quantum ended Now it has to go, it can't be in the CPU, the instructions in registers It may be possible , CPU is doing particular operation related to that process , there will be some values in registers During context switching , it will save it as it is in register block this is your CPU registers , when this process will get again the chance In context switching we are restoring old state , so in tis way things works Open file list , it may have opened some file
+
+00:35:24
+So things related to that is written here device descriptors , some devices may have opened some processes Those are listed here , in PCB everything related to process is stored So this is an introduction of PCB So these are your attributes of process , you should know them We will learn about process state in next video , let me show you the notes All things have been written in concise way You have  to watch the video , we have written all things Architecture of process , attributes , structure of PCB
+
+00:36:45
+Register's particular entry , what is mean by this attribute So this is lecture no-9, I hope you have understood it One thing I want to say in last , whatever you are getting new , google it Then you will learn it My target is to make you understand in easy way , you will also understand the hard language written on internet We will meet in the next lecture ,  thankyou
+

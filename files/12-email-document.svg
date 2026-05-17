@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="72" viewBox="0 0 320 72">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&amp;display=swap');
+    </style>
+  </defs>
+
+  <!-- White background for documents -->
+  <rect width="320" height="72" rx="8" fill="white"/>
+
+  <!-- Left amber bar accent -->
+  <rect x="0" y="0" width="5" height="72" rx="2.5" fill="#EF9F27"/>
+
+  <!-- Play button small -->
+  <circle cx="36" cy="36" r="20" fill="#1a1a1a"/>
+  <polygon points="29,26 49,36 29,46" fill="#EF9F27"/>
+
+  <!-- Divider -->
+  <rect x="66" y="16" width="1.5" height="40" rx="0.75" fill="#E8E6DF"/>
+
+  <!-- Tagline -->
+  <text x="78" y="28" font-family="'Space Grotesk', sans-serif" font-size="10" font-weight="500" fill="#BA7517" letter-spacing="2">YOUTUBE → TEXT</text>
+
+  <!-- Wordmark -->
+  <text x="76" y="54" font-family="'Space Grotesk', sans-serif" font-size="26" font-weight="700" fill="#1a1a1a">Transcript<tspan fill="#BA7517">AI</tspan></text>
+</svg>

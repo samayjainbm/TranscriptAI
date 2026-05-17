@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="140" viewBox="0 0 480 140">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&amp;display=swap');
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="480" height="140" rx="16" fill="#1a1a1a"/>
+
+  <!-- Play button circle -->
+  <circle cx="72" cy="70" r="34" fill="#EF9F27"/>
+  <!-- Play triangle -->
+  <polygon points="62,55 90,70 62,85" fill="#1a1a1a"/>
+
+  <!-- Tagline -->
+  <text x="124" y="54" font-family="'Space Grotesk', sans-serif" font-size="14" font-weight="500" fill="#EF9F27" letter-spacing="2">YOUTUBE → TEXT</text>
+
+  <!-- Wordmark -->
+  <text x="122" y="96" font-family="'Space Grotesk', sans-serif" font-size="40" font-weight="700" fill="white">Transcript<tspan fill="#EF9F27">AI</tspan></text>
+</svg>

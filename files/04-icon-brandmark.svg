@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+
+  <!-- Background rounded square -->
+  <rect width="200" height="200" rx="40" fill="#1a1a1a"/>
+
+  <!-- Outer ring -->
+  <circle cx="100" cy="100" r="70" fill="#EF9F27"/>
+
+  <!-- Inner circle -->
+  <circle cx="100" cy="100" r="52" fill="#1a1a1a"/>
+
+  <!-- Play triangle -->
+  <polygon points="84,72 124,100 84,128" fill="#EF9F27"/>
+</svg>

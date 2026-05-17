@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="220" height="48" viewBox="0 0 220 48">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&amp;display=swap');
+    </style>
+  </defs>
+
+  <!-- Play button circle -->
+  <circle cx="20" cy="24" r="16" fill="#EF9F27"/>
+  <!-- Play triangle -->
+  <polygon points="13,16 29,24 13,32" fill="white"/>
+
+  <!-- Wordmark -->
+  <text x="44" y="30" font-family="'Space Grotesk', sans-serif" font-size="22" font-weight="700" fill="#1a1a1a">Transcript<tspan fill="#BA7517">AI</tspan></text>
+</svg>

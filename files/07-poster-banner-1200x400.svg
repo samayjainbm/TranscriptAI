@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&amp;display=swap');
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="400" fill="#1a1a1a"/>
+
+  <!-- Subtle amber stripe -->
+  <rect x="0" y="0" width="8" height="400" fill="#EF9F27"/>
+
+  <!-- Decorative circles far right -->
+  <circle cx="1100" cy="200" r="180" fill="none" stroke="#EF9F27" stroke-width="1" opacity="0.1"/>
+  <circle cx="1100" cy="200" r="130" fill="none" stroke="#EF9F27" stroke-width="1" opacity="0.15"/>
+  <circle cx="1100" cy="200" r="80" fill="#EF9F27" opacity="0.07"/>
+
+  <!-- Play button -->
+  <circle cx="160" cy="200" r="72" fill="#EF9F27"/>
+  <circle cx="160" cy="200" r="54" fill="#1a1a1a"/>
+  <polygon points="142,172 186,200 142,228" fill="#EF9F27"/>
+
+  <!-- Divider line -->
+  <rect x="268" y="110" width="2" height="180" rx="1" fill="#EF9F27" opacity="0.4"/>
+
+  <!-- Tagline -->
+  <text x="292" y="172" font-family="'Space Grotesk', sans-serif" font-size="22" font-weight="500" fill="#EF9F27" letter-spacing="4">YOUTUBE → TEXT</text>
+
+  <!-- Wordmark -->
+  <text x="288" y="252" font-family="'Space Grotesk', sans-serif" font-size="88" font-weight="700" fill="white">Transcript<tspan fill="#EF9F27">AI</tspan></text>
+
+  <!-- Subtext -->
+  <text x="292" y="296" font-family="'Space Grotesk', sans-serif" font-size="18" font-weight="500" fill="rgba(255,255,255,0.35)" letter-spacing="2">FREE · NO SIGNUP · NO LIMITS</text>
+</svg>

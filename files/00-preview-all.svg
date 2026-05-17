@@ -1,0 +1,136 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1400" viewBox="0 0 900 1400">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&amp;display=swap');
+      .label { font-family: 'Space Grotesk', sans-serif; font-size: 11px; font-weight: 500; fill: #888; letter-spacing: 1.5px; text-transform: uppercase; }
+      .type  { font-family: 'Space Grotesk', sans-serif; font-size: 16px; font-weight: 700; fill: #1a1a1a; }
+    </style>
+  </defs>
+
+  <!-- Sheet background -->
+  <rect width="900" height="1400" fill="#F4F2EB"/>
+
+  <!-- Header -->
+  <rect x="0" y="0" width="900" height="72" fill="#1a1a1a"/>
+  <text x="40" y="30" font-family="'Space Grotesk',sans-serif" font-size="11" font-weight="500" fill="#EF9F27" letter-spacing="2">BRAND IDENTITY SYSTEM</text>
+  <text x="40" y="56" font-family="'Space Grotesk',sans-serif" font-size="24" font-weight="700" fill="white">TranscriptAI — Logo Package</text>
+
+  <!-- ─── 01 PRIMARY LOGO ─── -->
+  <text x="40" y="110" class="label">01</text>
+  <text x="60" y="110" class="type">Primary Logo</text>
+  <rect x="40" y="122" width="820" height="140" rx="14" fill="#1a1a1a"/>
+  <circle cx="112" cy="192" r="34" fill="#EF9F27"/>
+  <circle cx="112" cy="192" r="25" fill="#1a1a1a"/>
+  <polygon points="102,179 126,192 102,205" fill="#EF9F27"/>
+  <text x="162" y="177" font-family="'Space Grotesk',sans-serif" font-size="14" font-weight="500" fill="#EF9F27" letter-spacing="2">YOUTUBE → TEXT</text>
+  <text x="160" y="220" font-family="'Space Grotesk',sans-serif" font-size="42" font-weight="700" fill="white">Transcript<tspan fill="#EF9F27">AI</tspan></text>
+
+  <!-- ─── 02 NAVBAR DARK ─── -->
+  <text x="40" y="296" class="label">02</text>
+  <text x="60" y="296" class="type">Navbar Logo — Dark</text>
+  <rect x="40" y="308" width="820" height="64" rx="10" fill="#1a1a1a"/>
+  <circle cx="80" cy="340" r="20" fill="#EF9F27"/>
+  <polygon points="73,329 93,340 73,351" fill="#1a1a1a"/>
+  <text x="110" y="347" font-family="'Space Grotesk',sans-serif" font-size="22" font-weight="700" fill="white">Transcript<tspan fill="#EF9F27">AI</tspan></text>
+
+  <!-- ─── 03 NAVBAR LIGHT ─── -->
+  <text x="40" y="400" class="label">03</text>
+  <text x="60" y="400" class="type">Navbar Logo — Light</text>
+  <rect x="40" y="412" width="820" height="64" rx="10" fill="#FFFDF5" stroke="#FAC775" stroke-width="1"/>
+  <circle cx="80" cy="444" r="20" fill="#EF9F27"/>
+  <polygon points="73,433 93,444 73,455" fill="white"/>
+  <text x="110" y="451" font-family="'Space Grotesk',sans-serif" font-size="22" font-weight="700" fill="#1a1a1a">Transcript<tspan fill="#BA7517">AI</tspan></text>
+
+  <!-- ─── 04 ICON / BRAND MARK ─── -->
+  <text x="40" y="510" class="label">04</text>
+  <text x="60" y="510" class="type">Icon / Brand Mark</text>
+  <rect x="40" y="520" width="140" height="140" rx="28" fill="#1a1a1a"/>
+  <circle cx="110" cy="590" r="46" fill="#EF9F27"/>
+  <circle cx="110" cy="590" r="34" fill="#1a1a1a"/>
+  <polygon points="96,569 124,590 96,611" fill="#EF9F27"/>
+
+  <!-- ─── 05 FAVICON ─── -->
+  <text x="220" y="510" class="label">05</text>
+  <text x="240" y="510" class="type">Favicon</text>
+  <rect x="240" y="562" width="48" height="48" rx="10" fill="#1a1a1a"/>
+  <circle cx="264" cy="586" r="18" fill="#EF9F27"/>
+  <polygon points="257,577 275,586 257,595" fill="#1a1a1a"/>
+
+  <!-- ─── 06 STACKED ─── -->
+  <text x="340" y="510" class="label">06</text>
+  <text x="360" y="510" class="type">Stacked / Vertical</text>
+  <rect x="360" y="520" width="180" height="140" rx="14" fill="#1a1a1a"/>
+  <circle cx="450" cy="574" r="30" fill="#EF9F27"/>
+  <circle cx="450" cy="574" r="22" fill="#1a1a1a"/>
+  <polygon points="441,561 463,574 441,587" fill="#EF9F27"/>
+  <text x="450" y="622" text-anchor="middle" font-family="'Space Grotesk',sans-serif" font-size="18" font-weight="700" fill="white">Transcript<tspan fill="#EF9F27">AI</tspan></text>
+  <text x="450" y="644" text-anchor="middle" font-family="'Space Grotesk',sans-serif" font-size="9" font-weight="500" fill="#EF9F27" letter-spacing="2">YT → TEXT</text>
+
+  <!-- ─── 07 SOCIAL DP ─── -->
+  <text x="580" y="510" class="label">07</text>
+  <text x="600" y="510" class="type">Social Media DP</text>
+  <rect x="600" y="520" width="160" height="160" fill="#1a1a1a" rx="80"/>
+  <circle cx="680" cy="580" r="52" fill="#EF9F27"/>
+  <circle cx="680" cy="580" r="38" fill="#1a1a1a"/>
+  <polygon points="666,560 696,580 666,600" fill="#EF9F27"/>
+  <text x="680" y="650" text-anchor="middle" font-family="'Space Grotesk',sans-serif" font-size="15" font-weight="700" fill="white">Transcript<tspan fill="#EF9F27">AI</tspan></text>
+
+  <!-- ─── 08 POSTER / BANNER ─── -->
+  <text x="40" y="700" class="label">08</text>
+  <text x="60" y="700" class="type">Poster / Banner</text>
+  <rect x="40" y="712" width="820" height="200" rx="14" fill="#1a1a1a"/>
+  <rect x="40" y="712" width="7" height="200" rx="3.5" fill="#EF9F27"/>
+  <circle cx="820" cy="812" r="130" fill="none" stroke="#EF9F27" stroke-width="1" opacity="0.1"/>
+  <circle cx="820" cy="812" r="90" fill="none" stroke="#EF9F27" stroke-width="1" opacity="0.15"/>
+  <circle cx="820" cy="812" r="50" fill="#EF9F27" opacity="0.08"/>
+  <circle cx="130" cy="812" r="52" fill="#EF9F27"/>
+  <circle cx="130" cy="812" r="38" fill="#1a1a1a"/>
+  <polygon points="116,792 148,812 116,832" fill="#EF9F27"/>
+  <rect x="200" y="752" width="2" height="120" rx="1" fill="#EF9F27" opacity="0.3"/>
+  <text x="218" y="788" font-family="'Space Grotesk',sans-serif" font-size="14" font-weight="500" fill="#EF9F27" letter-spacing="3">YOUTUBE → TEXT</text>
+  <text x="214" y="848" font-family="'Space Grotesk',sans-serif" font-size="60" font-weight="700" fill="white">Transcript<tspan fill="#EF9F27">AI</tspan></text>
+  <text x="218" y="884" font-family="'Space Grotesk',sans-serif" font-size="13" font-weight="500" fill="rgba(255,255,255,0.3)" letter-spacing="2">FREE · NO SIGNUP · NO LIMITS</text>
+
+  <!-- ─── 09 DARK MODE ─── -->
+  <text x="40" y="946" class="label">09</text>
+  <text x="60" y="946" class="type">Dark Mode Logo</text>
+  <rect x="40" y="958" width="390" height="120" rx="12" fill="#111"/>
+  <circle cx="100" cy="1018" r="30" fill="none" stroke="#EF9F27" stroke-width="1.5" opacity="0.4"/>
+  <circle cx="100" cy="1018" r="22" fill="#EF9F27"/>
+  <polygon points="92,1007 112,1018 92,1029" fill="#111"/>
+  <text x="142" y="1006" font-family="'Space Grotesk',sans-serif" font-size="11" font-weight="500" fill="#EF9F27" letter-spacing="2">YOUTUBE → TEXT</text>
+  <text x="140" y="1040" font-family="'Space Grotesk',sans-serif" font-size="34" font-weight="700" fill="white">Transcript<tspan fill="#EF9F27">AI</tspan></text>
+
+  <!-- ─── 10 LIGHT MODE ─── -->
+  <text x="470" y="946" class="label">10</text>
+  <text x="490" y="946" class="type">Light Mode Logo</text>
+  <rect x="470" y="958" width="390" height="120" rx="12" fill="#FFFDF5" stroke="#FAC775" stroke-width="1"/>
+  <circle cx="530" cy="1018" r="22" fill="#EF9F27"/>
+  <polygon points="522,1007 542,1018 522,1029" fill="white"/>
+  <text x="564" y="1006" font-family="'Space Grotesk',sans-serif" font-size="11" font-weight="500" fill="#BA7517" letter-spacing="2">YOUTUBE → TEXT</text>
+  <text x="562" y="1040" font-family="'Space Grotesk',sans-serif" font-size="34" font-weight="700" fill="#1a1a1a">Transcript<tspan fill="#BA7517">AI</tspan></text>
+
+  <!-- ─── 11 TRANSPARENT ─── -->
+  <text x="40" y="1118" class="label">11</text>
+  <text x="60" y="1118" class="type">Transparent Overlay</text>
+  <rect x="40" y="1130" width="820" height="100" rx="12" fill="#3a3a3a"/>
+  <circle cx="98" cy="1180" r="28" fill="#EF9F27"/>
+  <circle cx="98" cy="1180" r="20" fill="rgba(0,0,0,0.5)"/>
+  <polygon points="88,1168 108,1180 88,1192" fill="#EF9F27"/>
+  <text x="140" y="1170" font-family="'Space Grotesk',sans-serif" font-size="11" font-weight="500" fill="#EF9F27" letter-spacing="2">YOUTUBE → TEXT</text>
+  <text x="138" y="1200" font-family="'Space Grotesk',sans-serif" font-size="34" font-weight="700" fill="white">Transcript<tspan fill="#EF9F27">AI</tspan></text>
+
+  <!-- ─── 12 EMAIL / DOC ─── -->
+  <text x="40" y="1268" class="label">12</text>
+  <text x="60" y="1268" class="type">Email / Document</text>
+  <rect x="40" y="1280" width="820" height="90" rx="10" fill="white" stroke="#E8E6DF" stroke-width="1"/>
+  <rect x="40" y="1280" width="6" height="90" rx="3" fill="#EF9F27"/>
+  <circle cx="88" cy="1325" r="22" fill="#1a1a1a"/>
+  <polygon points="80,1313 100,1325 80,1337" fill="#EF9F27"/>
+  <rect x="120" y="1296" width="1.5" height="58" rx="0.75" fill="#E8E6DF"/>
+  <text x="132" y="1314" font-family="'Space Grotesk',sans-serif" font-size="10" font-weight="500" fill="#BA7517" letter-spacing="2">YOUTUBE → TEXT</text>
+  <text x="130" y="1348" font-family="'Space Grotesk',sans-serif" font-size="30" font-weight="700" fill="#1a1a1a">Transcript<tspan fill="#BA7517">AI</tspan></text>
+
+  <!-- Footer -->
+  <rect x="0" y="1386" width="900" height="14" fill="#EF9F27" opacity="0.6"/>
+</svg>
